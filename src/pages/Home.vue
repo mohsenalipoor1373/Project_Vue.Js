@@ -12,6 +12,8 @@
 
 
         </p>
+        <router-link class="btn btn-dark" :to="{name:'user'}">Users</router-link>
+        <router-link class="btn btn-light ms-3" :to="{name:'post'}">Post</router-link>
       </div>
     </div>
   </div>
